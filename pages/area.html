@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
     <title>Trianlge | Area</title>
 </head>
 <body>
-    <h1>Area Calculation</h1>
+    <nav class="container-nav">
+        <a class="nav-link" href="/index.html">isTriangle</a>
+        <a class="nav-link" href="/pages/hypotenuse.html">Hypotenuse</a>
+        <a class="nav-link link-active" href="/pages/area.html">Area</a>
+        <a href="/pages/quiz.html"  class="nav-link">Quiz</a>
+    </nav>
     <div class="container">
-        <label>breadth:<input type="number" id="input-breadth"></label>
-        <label>height:<input type="number" id="input-height"></label>
+        <h1>Area Calculation</h1>
+        <label>Breadth:<input type="number" id="input-breadth" class="input-angle"></label>
+        <label>Height:<input type="number" id="input-height" class="input-angle"></label>
         <button id="btn-calculate">calculate Area</button>
+        <div class="output-area output container"></div>    
     </div>
-    <div class="output-area"></div>
+    
     <script src="/js/area.js" type="text/javascript"></script>
 </body>
 </html>

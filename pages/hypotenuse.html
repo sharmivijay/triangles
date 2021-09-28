@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
     <title>Triangle | Hypotenuse</title>
 </head>
 <body>
-    <h1>Get the Hypotenuse</h1>
-    <div class = "container-hypotenuse">
-       <labe>a: <input type="number" class="input-side1"/></labe>
-       <labe>b: <input type="number" class="input-side2"/></labe> 
+    <nav class="container-nav">
+        <a class="nav-link" href="/index.html">isTriangle</a>
+        <a class="nav-link link-active" href="/pages/hypotenuse.html">Hypotenuse</a>
+        <a class="nav-link" href="/pages/area.html">Area</a>
+        <a href="/pages/quiz.html"  class="nav-link">Quiz</a>
+    </nav>
+    
+    <div class = "container">
+        <h1>Get the Hypotenuse</h1>
+       <label>Adjacent side(in cm): <input type="number" id="input-side1" class="input-angle"/></label>
+       <label>Opposite side(in cm): <input type="number" id="input-side2" class="input-angle"/></label> 
        <button id="btn-check">Check Hypotenuse</button>
+       <div id="output-msg" class="output container"></div>
     </div>
-    <h2 id="output-msg"></h2>
+    
     <script src="/js/hypotenuse.js" type="text/javascript"></script>
 </body>
 </html>

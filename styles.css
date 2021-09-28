@@ -1,0 +1,116 @@
+:root{
+    --primary-color : #9D174D;
+    --secondary-color: #FCE7F3;
+}
+
+body{
+    margin: 0px;
+    background-color:var(--secondary-color);
+}
+
+.container-nav{
+    max-width: 100%;
+    background-color: var(--primary-color);
+    height: 5vh;
+    font-size: x-large;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.container{
+    max-width: 41%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.input-angle{
+    width: 91.5%;
+    padding: 2%;
+    margin-bottom: 5%;
+    border: 1px solid var(--primary-color);
+}
+
+#btn-submit-angles{
+    width: 96%;
+    padding: 2%;
+    margin: 5% auto;
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    color: white;
+    font-size: large;
+}
+
+.quiz-form{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#btn-submit-form{
+    width: 93%;
+    padding: 2%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    color: white;
+}
+
+.quiz-container{
+    width: 87%;
+    border: 1px solid var(--primary-color);
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    border-radius: 0.5rem;
+    padding:3%;
+}
+
+#btn-check{
+    width: 96%;
+    padding: 2%;
+    margin: 5% auto;
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    color: white;
+    font-size: large;
+}
+
+#btn-calculate{
+    width: 96%;
+    padding: 2%;
+    margin: 5% auto;
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    color: white;
+    font-size: large;
+}
+
+.output{
+    font-size: x-large;
+    max-width: 93%;
+}
+label{
+    font-size: large;
+}
+.link-active{
+   text-decoration: underline;
+}
